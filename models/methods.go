@@ -1,6 +1,8 @@
 package models
 
-import "gorm.io/gorm"
+import (
+	"gorm.io/gorm"
+)
 
 // GetAllPriceBooks do not use
 func GetAllPriceBooks(priceBook *[]PriceBook) (err error) {
